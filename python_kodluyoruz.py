@@ -14,7 +14,7 @@ def euclideanDistance(a, b):
 # Looping through the points and getting all combinations of the distances
 for a in range(len(points) -1):
     for b in range(a+1,len(points)):
-        distance = round(euclideanDistance(points[a], points[b]))
+        distance = round(euclideanDistance(points[a], points[b]),2)
         distances.append(distance)
 
 # printing the minimum distance
